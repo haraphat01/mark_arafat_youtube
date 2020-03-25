@@ -122,7 +122,7 @@ margin-left: 20px;
 
 
 }
-
+/* id  For Video Button  */
 #video_title{
 font-weight: bold;
 margin-left: 30px;
@@ -132,13 +132,23 @@ a {
   text-decoration: none;
   
 }
-
+/* id  For Odin Project Button  */
 #Odin_project{
   margin-left: 90px;
   margin-top: -13%;
   color: black;
 }
+/* id  For the red subscribed button  */
+#subscribed{
 
-#subscribe{
-  
+margin-left: 95px;
+
+}
+
+/* class for page views  */
+
+.page_views{
+  margin-left: 70%;
+  margin-top: -7%;
+  font-size: 20px;
 }
