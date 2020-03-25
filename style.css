@@ -49,7 +49,7 @@ background-color: grey;
   color:white;
 
 }
-
+/* Youtube pic  */
 #youtubepic{
   width: 100px;
   height: 30px;
@@ -61,7 +61,7 @@ background-color: grey;
 /*  margin-left: 40px;*/
 
 }
-
+/* menu bar id  */
 #menu-id{
   /*border-style:solid;
   border-color:black;*/
@@ -70,13 +70,14 @@ background-color: grey;
   margin-top: 13px;
   height: 25px;}
 
+  /* text space id  */
 #textspace{
   width:90%;
   height:20px;
   margin-top:-30px;
   margin-bottom: 5px;
 }
-
+/* sign in button  */
 #signin-btn{
   background-color: blue;
   color:white;
@@ -84,4 +85,56 @@ background-color: grey;
   border-radius: 1px;
   border-style: hidden;
 
+}
+
+/* video embbed container  */
+
+.video_container{
+  height: 40%;
+  width: 55%;
+background-color: black;
+margin-top: 25px;
+
+}
+
+/* vContainer For Video Tite and Channel's name  */
+
+.video_container1{
+  height: 20%;
+  width: 55%;
+background-color: white;
+margin-top: 10px;
+text-align: left;
+border-style:solid;
+border-color:black;
+
+}
+
+/* vContainer For Video Button  */
+
+#video_button{
+background-color: green;
+padding: 20px;
+font-size: 100%;
+font-weight: 900;
+color: white;
+margin-left: 20px;
+
+
+}
+
+#video_title{
+font-weight: bold;
+margin-left: 30px;
+}
+
+a {
+  text-decoration: none;
+  
+}
+
+#Odin_project{
+  margin-left: 90px;
+  margin-top: -13%;
+  color: black;
 }
