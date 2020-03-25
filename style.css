@@ -20,7 +20,44 @@ background-color: grey;
   border-color:grey;
   background-color: yellow;
   width: 100%;
-  height: 10%;
+  height: 5%;
   margin: -6px;
 
+  display:flex;
+  flex-direction: row;
+}
+
+/*Div for youtube icon and menu*/
+.menu-div{
+  padding:20px;
+  width: 30%;
+  float: right;
+}
+
+/*Div for search bar and button*/
+.search-div{
+   padding: 20px;
+   width: 50%;
+}
+
+/*Div for upload and signin button*/
+.upload-div{
+  padding: 20px;
+  width:20%;
+}
+
+#youtubepic{
+  width: 90px;
+  align-items: center;
+  border-style:solid;
+  border-color:black;
+/*  margin-left: 40px;*/
+
+}
+
+#menu-id{
+  border-style:solid;
+  border-color:black;
+
+  /*margin-right: 50px;*/
 }
