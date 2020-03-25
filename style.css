@@ -1,0 +1,23 @@
+body{
+background-color: grey;
+}
+
+.outer-div{
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+    height: 800px;
+    width: 70%;
+    margin-left: 200px;
+    background-color: white;
+    
+}
+
+
+.nav-div{
+width: 100%;
+height: 70px;
+background-color: white;
+margin: -6px;
+
+}
