@@ -148,7 +148,7 @@ a {
   .video_and_sidebar{
     display:flex;
     height:100%;
-    flex-direction: row;
+  flex-direction: row;
   }
 
   .video_side{
@@ -169,8 +169,8 @@ a {
     /*width:100%;*/
     height:auto;
     background-color: yellow;
-    border-style:solid;
-    border-color:black;
+    /*border-style:solid;
+    border-color:black;*/
     display:flex;
   }
 
@@ -193,6 +193,7 @@ a {
     background-color: green;
     padding-top: 10px;
 
+
   }
 
   .Odin-div{
@@ -205,19 +206,67 @@ a {
   .no_subscribers_div{
     width: 50%;
     position: relative;
+    border-bottom: 5px solid black;
   }
 
   #subscribers{
     position:absolute;
     right:0px;
-    bottom:-10px;
+    bottom:-5px;
   }
 
   .orange{
     /*width:100%;*/
     height:auto;
-    background-color: orange;
-    border-style:solid;
-    border-color:black;
+    background-color: white;
+  /*  border-style:solid;
+    border-color:black;*/
     display:flex;
+    position:relative;
   }
+
+  /*add share like dislike css*/
+.add_share_more{
+  width:40%
+
+}
+
+.like_dislike{
+  position:absolute;
+  right:5px;
+  width:60%
+  float:right;
+}
+
+/*FOrm text behind Add LIke Button*/
+#social_text{
+  font-size:10px;
+  font-style: monospace;
+  border:none;
+  margin:5px;
+  color:grey;
+
+}
+
+.orange button{
+  border:none;
+  background-color:white;
+  color: grey;
+}
+
+/* Description text*/
+
+.description-txt{
+  background-color:white;
+  font-size:10px;
+  position:relative;
+}
+
+#show{
+  font-size:10px;
+  font-style: monospace;
+  border:none;
+  background-color: white;
+  position: absolute;
+  right:250px;
+}
