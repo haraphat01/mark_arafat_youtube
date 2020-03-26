@@ -4,8 +4,7 @@ background-color: grey;
 
 .outer-div{
     border-width:2px;
-    border-style:solid;
-    border-color:black;
+    
     height: 800px;
     width: 70%;
     margin-left: 200px;
@@ -92,7 +91,7 @@ background-color: grey;
 .video_container{
   height: 40%;
   width: 55%;
-background-color: black;
+
 margin-top: 25px;
 
 }
@@ -105,8 +104,8 @@ margin-top: 25px;
 background-color: white;
 margin-top: 10px;
 text-align: left;
-border-style:solid;
-border-color:black;
+
+
 
 }
 
@@ -114,11 +113,12 @@ border-color:black;
 
 #video_button{
 background-color: green;
-padding: 20px;
+padding: 10px;
 font-size: 100%;
 font-weight: 900;
 color: white;
-margin-left: 20px;
+margin-left: 15px;
+margin-right: 10px;
 
 
 }
@@ -139,9 +139,7 @@ a {
   color: black;
 }
 
-#subscribe{
 
-}
 
 /*Mark code*/
 
@@ -153,22 +151,23 @@ a {
 
   .video_side{
     width:60%;
-    background-color: blue;
-    border-style:solid;
-    border-color:black;
+    background-color:white;
+    
+    
   }
 
   .sidebar_side{
     width: 40%;
-    background-color: red;
-    border-style:solid;
-    border-color:black;
+    background-color: white;
+    
+    
+    margin-left: 5px;
   }
 
   .yellow{
     /*width:100%;*/
     height:auto;
-    background-color: yellow;
+    
     /*border-style:solid;
     border-color:black;*/
     display:flex;
@@ -206,7 +205,7 @@ a {
   .no_subscribers_div{
     width: 50%;
     position: relative;
-    border-bottom: 5px solid black;
+    border-bottom: 2px solid blue;
   }
 
   #subscribers{
@@ -269,4 +268,37 @@ a {
   background-color: white;
   position: absolute;
   right:250px;
+}
+
+.feedcontainer{
+  width : auto;
+  height: 15% ;
+  background-color: white;
+  display:flex;
+  margin-top : 20px;
+  border-bottom: solid black 1px;
+  
+  
+}
+
+.feedcontainer p{
+  border:none;
+  margin :0;
+  color: grey;
+  font-size: small;
+  margin-left: 10px;
+
+}
+
+.feedcontainer h4{
+  border:none;
+  margin :0;
+  color: black;
+  margin-left: 10px;
+  
+}
+
+#feedimage{
+  width: 80%;
+  height: 80%;
 }
