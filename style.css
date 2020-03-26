@@ -130,7 +130,7 @@ margin-left: 30px;
 
 a {
   text-decoration: none;
-  
+
 }
 
 #Odin_project{
@@ -140,5 +140,84 @@ a {
 }
 
 #subscribe{
-  
+
 }
+
+/*Mark code*/
+
+  .video_and_sidebar{
+    display:flex;
+    height:100%;
+    flex-direction: row;
+  }
+
+  .video_side{
+    width:60%;
+    background-color: blue;
+    border-style:solid;
+    border-color:black;
+  }
+
+  .sidebar_side{
+    width: 40%;
+    background-color: red;
+    border-style:solid;
+    border-color:black;
+  }
+
+  .yellow{
+    /*width:100%;*/
+    height:auto;
+    background-color: yellow;
+    border-style:solid;
+    border-color:black;
+    display:flex;
+  }
+
+  .green{
+    /*width:100%;*/
+    height:auto;
+    background-color: green;
+    border-style:solid;
+    border-color:black;
+    display:flex;
+  }
+
+  .T-div{
+    /*padding:20px;*/
+    width: 10%;
+    text-align:center;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    background-color: green;
+    padding-top: 10px;
+
+  }
+
+  .Odin-div{
+    /*padding:20px;*/
+    width: 40%;
+    display:flex;
+    flex-direction: column;
+  }
+
+  .no_subscribers_div{
+    width: 50%;
+    position: relative;
+  }
+
+  #subscribers{
+    position:absolute;
+    right:0px;
+    bottom:-10px;
+  }
+
+  .orange{
+    /*width:100%;*/
+    height:auto;
+    background-color: orange;
+    border-style:solid;
+    border-color:black;
+    display:flex;
+  }
