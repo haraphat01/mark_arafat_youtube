@@ -3,176 +3,186 @@
 <html>
   <head>
     <!-- metadata elements -->
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Youtube's Page</title>
   </head>
   <body>
     <!-- page contents -->
 
-<!-- outer division with black border
---- All other sections will be encapsulated here
----mjk-20200325
--->
+    <!-- outer division with black border
+--- All other sections will be encapsulated here-->
     <div class="outer-div">
       <!--Youtube search bar section-->
-      <div class="nav-div">
-        <!--Youtube and menu icon div-->
-        <div class= "menu-div">
-        <button type="button" name="menu" id="menu-id"><i class="fa fa-bars"></i></button>
-        <!--<button type="image" name="youtube" style="width:50%"><img src="https://archive.vn/Bss88/51a3832e6af6792add876216da444db23a4bea96.png" /></button>-->
-        <a href="#" ><img id="youtubepic" src="https://archive.vn/Bss88/51a3832e6af6792add876216da444db23a4bea96.png"/></a>
-        </div>
-        <!--Search text division -->
-        <div class="search-div">
-        <input id="textspace" type="text" placeholder="Search">
-        <button type="button" name="search" ><i class="fa fa-search"></i></button>
-        </div>
+      <header>
+        <div class="nav-div">
+          <!--Youtube and menu icon div-->
+          <div class="menu-div">
+            <button type="button" name="menu" id="menu-id">
+              <i class="fa fa-bars"></i>
+            </button>
+            <!--<button type="image" name="youtube" style="width:50%"><img src="https://archive.vn/Bss88/51a3832e6af6792add876216da444db23a4bea96.png" /></button>-->
+            <a href="#"
+              ><img
+                id="youtubepic"
+                src="https://archive.vn/Bss88/51a3832e6af6792add876216da444db23a4bea96.png"
+            /></a>
+          </div>
+          <!--Search text division -->
+          <div class="search-div">
+            <input id="textspace" type="text" placeholder="Search" />
+            <button type="button" name="search">
+              <i class="fa fa-search"></i>
+            </button>
+          </div>
 
-        <!--Upload video division-->
-        <div class="upload-div">
-        <button type="button" name="upload" ><i class="fa fa-upload"></i></button>
-        <button type="button" name="signin" id="signin-btn"  >Sign-in</button>
+          <!--Upload video division-->
+          <div class="upload-div">
+            <button type="button" name="upload">
+              <i class="fa fa-upload"></i>
+            </button>
+            <button type="button" name="signin" id="signin-btn">Sign-in</button>
+          </div>
         </div>
-      </div >
-
-<!--Mark code -->
-<div class="video_and_sidebar">
-        <div class ="video_side">
-          <iframe width="100%" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+      </header>
+      <!--Mark code -->
+      <div class="video_and_sidebar">
+        <div class="video_side">
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/tgbNymZ7vqY"
+          >
           </iframe>
-            <p>Contributing to Open Source Part I: The Easy Way</p>
+          <p>Contributing to Open Source Part I: The Easy Way</p>
 
-<!------------Yellow--------------------------->
-            <div class="yellow">
-                <div >
-                  <button type="button" name="signin" id="video_button"  >T</button>
-                </div>
-                <div class="Odin-div">
-                      <div><a href="https://www.youtube.com/channel/UCk0b0VTnJxXbxupXJ4D2yjQ" target="_blank" rel="noopener">The Ordin Project</a></div>
-                      <div> <a href="#" ><img id="" src="icons/subscribe.PNG"/></a></div>
-                 </div>
-               <div class="no_subscribers_div"><p id=subscribers> 50000 views<p></div>
-
-           </div>
-  <!------------orange------------------------------>
-           <div class="orange" >
-            <div class="add_share_more" id="social_text" >
-                  <button type="button" name="add"><i class="fa fa-plus"></i></button> Add to
-                  <button type="button" name="share" ><i class="fa fa-share"></i></button> Share
-                  <button type="button" name="more" ><i class="fa fa-ellipsis-h"></i></button> More
+          <!------------Yellow--------------------------->
+          <div class="yellow">
+            <div>
+              <button type="button" name="signin" id="video_button">T</button>
+            </div>
+            <div class="Odin-div">
+              <div>
+                <a
+                  href="https://www.youtube.com/channel/UCk0b0VTnJxXbxupXJ4D2yjQ"
+                  target="_blank"
+                  rel="noopener"
+                  >The Ordin Project</a
+                >
+              </div>
+              <div>
+                <a href="#"><img id="" src="icons/subscribe.PNG"/></a>
+              </div>
+            </div>
+            <div class="no_subscribers_div">
+              <p id="subscribers">50000 views</p>
+              <p></p>
+            </div>
+          </div>
+          <!------------orange------------------------------>
+          <div class="orange">
+            <div class="add_share_more" id="social_text">
+              <button type="button" name="add">
+                <i class="fa fa-plus"></i>
+              </button>
+              Add to
+              <button type="button" name="share">
+                <i class="fa fa-share"></i>
+              </button>
+              Share
+              <button type="button" name="more">
+                <i class="fa fa-ellipsis-h"></i>
+              </button>
+              More
             </div>
             <div class="like_dislike" id="social_text">
-                  <button type="button" name="like"  ><i class="fa fa-thumbs-up"></i></button> 400
-                  <button type="button" name="dislike" ><i class="fa fa-thumbs-down"></i></button> 67899
+              <button type="button" name="like">
+                <i class="fa fa-thumbs-up"></i>
+              </button>
+              400
+              <button type="button" name="dislike">
+                <i class="fa fa-thumbs-down"></i>
+              </button>
+              67899
             </div>
           </div>
 
-<!-----------Description division----------------------------------->
+          <!-----------Description division----------------------------------->
           <div class="description-txt">
             <h3>Published on Feb 27, 2014</h3>
-<p>How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github. I'll also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails. You can find more information about that project at http://theodinproject.com.</p>
-<hr>
-  <button type="button" name="show"id="show">SHOW MORE</button>
-
+            <p>
+              How do you contribute to open source? In this video, I'll describe
+              the easiest way to make a simple contribution to an open source
+              project -- without using the command line, a text editor, "forking
+              a repo", or even touching Git outside of Github. I'll also
+              describe what kinds of contributions open source software projects
+              are typically looking for. As an example, I use submitting a
+              student solution to a web development exercise from The Odin
+              Project, a free online curriculum for learning web development
+              with Ruby on Rails. You can find more information about that
+              project at http://theodinproject.com.
+            </p>
+            <hr />
+            <button type="button" name="show" id="show">SHOW MORE</button>
           </div>
-
-
         </div>
 
-
-        <div class="sidebar_side"> 
-  <!-----------First Field Container----------------------------------->
-                 Up Next
-           <div class="feedcontainer">
-            
-             <div id="feedimage"> <img src="icons/picture1.jpg">
-             </div>
-           <div> <h4>Contributing to Open Source Part II: The Real Way</h4>
-                 <p> The Ordin Project</p>
-                 <p>29,981 views</p>
-                  
+        <div class="sidebar_side">
+          <!-----------First Field Container----------------------------------->
+          Up Next
+          <div id="underlined" class="feedcontainer">
+            <div id="feedimage"><img src="icons/picture1.jpg" /></div>
+            <div>
+              <h4>Contributing to Open Source Part II: The Real Way</h4>
+              <p>The Ordin Project</p>
+              <p>29,981 views</p>
             </div>
-            
-           </div>
-           
-
-          
-
-
-<!-----------second Field Conainer----------------------------------->
-           <div class="feedcontainer">
-            <div id="feedimage"> <img src="icons/picture1.jpg">
-            </div>
-          <div> <h4>Contributing to Open Source Part II: The Real Way</h4>
-                <p> The Ordin Project</p>
-                <p>29,981 views</p>
-                 
-           </div>
           </div>
 
-<!-----------Third Field Container----------------------------------->
+          <!-----------second Field Conainer----------------------------------->
           <div class="feedcontainer">
-            <div id="feedimage"> <img src="icons/picture1.jpg">
+            <div id="feedimage"><img src="icons/picture1.jpg" /></div>
+            <div>
+              <h4>Contributing to Open Source Part II: The Real Way</h4>
+              <p>The Ordin Project</p>
+              <p>29,981 views</p>
             </div>
-          <div> <h4>Contributing to Open Source Part II: The Real Way</h4>
-                <p> The Ordin Project</p>
-                <p>29,981 views</p>
-                 
-           </div>
           </div>
 
-<!-----------Fourth Field Container----------------------------------->
+          <!-----------Third Field Container----------------------------------->
           <div class="feedcontainer">
-            <div id="feedimage"> <img src="icons/picture1.jpg">
+            <div id="feedimage"><img src="icons/picture1.jpg" /></div>
+            <div>
+              <h4>Contributing to Open Source Part II: The Real Way</h4>
+              <p>The Ordin Project</p>
+              <p>29,981 views</p>
             </div>
-          <div> <h4>Contributing to Open Source Part II: The Real Way</h4>
-                <p> The Ordin Project</p>
-                <p>29,981 views</p>
-                 
-           </div>
           </div>
-  
-          
-<!-----------Fifith Field Container----------------------------------->
-<div class="feedcontainer">
-  <div id="feedimage"> <img src="icons/picture1.jpg">
-  </div>
-<div> <h4>Contributing to Open Source Part II: The Real Way</h4>
-      <p> The Ordin Project</p>
-      <p>29,981 views</p>
-       
- </div>
-</div>
-       </div>
-      <div>
 
-      <!--video  Display Section-->
-<!--      <div class="video_container">
+          <!-----------Fourth Field Container----------------------------------->
+          <div class="feedcontainer">
+            <div id="feedimage"><img src="icons/picture1.jpg" /></div>
+            <div>
+              <h4>Contributing to Open Source Part II: The Real Way</h4>
+              <p>The Ordin Project</p>
+              <p>29,981 views</p>
+            </div>
+          </div>
 
-          <iframe width="100%" height="315"
-src="https://www.youtube.com/embed/tgbNymZ7vqY">
-</iframe>
-
-</div> -->
-        <!--video's Title and Channel's Name Section-->
-<!--      <div class="video_container1">
-        <p id="video_title">Contributing to Open Source Part I: The Easy Way</p>
-        <button type="button" name="signin" id="video_button"  >T</button>
-        <p id="Odin_project">
-          <a href="https://www.youtube.com/channel/UCk0b0VTnJxXbxupXJ4D2yjQ" target="_blank" rel="noopener">The Ordin Project</a>
-        </p>
-        <a href="#" ><img id="" src="icons/subscribe.PNG"/></a>
-      </div> -->
-
-
-
+          <!-----------Fifith Field Container----------------------------------->
+          <div class="feedcontainer">
+            <div id="feedimage"><img src="icons/picture1.jpg" /></div>
+            <div>
+              <h4>Contributing to Open Source Part II: The Real Way</h4>
+              <p>The Ordin Project</p>
+              <p>29,981 views</p>
+            </div>
+          </div>
         </div>
-
-
       </div>
-
-
     </div>
-
   </body>
 </html>
