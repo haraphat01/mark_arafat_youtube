@@ -1,11 +1,16 @@
 body {
-  background-color: grey;
+  background-color: rgb(241,241,241);
   font-family: sans-serif;
+  
 }
 
 a {
   color: black;
   text-decoration: none;
+}
+
+a:hover {
+  color:rgb(22,122,198);
 }
 
 .outer-div {
@@ -14,6 +19,7 @@ a {
   margin-left: 20%;
   background-color: white;
   border: 1px solid black;
+  
 }
 
 /* <!-- Youtube search bar css  --> */
@@ -29,12 +35,12 @@ a {
 .language-div {
   height: 70px;
   background-color: white;
-  border: 2px solid blue;
+  border: 2px solid rgb(22,122,198);
 }
 
 .blue-language-div {
   height: 50%;
-  background-color: blue;
+  background-color:rgb(22,122,198);
   color: white;
   padding-left: 20px;
   padding-top: 5px;
@@ -55,7 +61,7 @@ a {
 }
 .white-lang-learn {
   padding-left: 53%;
-  color: blue;
+  color: rgb(22,122,198);
 }
 
 .white-lang-English {
@@ -64,7 +70,7 @@ a {
 }
 
 .white-lang-span {
-  color: blue;
+  color: rgb(22,122,198);
 }
 /* Div for youtube icon and menu */
 .menu-div {
@@ -135,7 +141,7 @@ a {
 
 /* sign in button  */
 .signin-btn {
-  background-color: blue;
+  background-color: rgb(22,122,198);
   color: white;
   border-radius: 5px;
   padding: 8px 10px;
@@ -172,12 +178,14 @@ a {
   height: 100%;
   flex-direction: row;
   margin: 4px;
+  background-color:rgb(241,241,241);
 }
 
 .video_side {
   width: 60%;
   background-color: white;
   position: relative;
+  margin-top: 15px;
 }
 
 .sidebar_side {
@@ -185,8 +193,6 @@ a {
   background-color: white;
   margin-left: 25px;
   margin-right: 25px;
-  display: flex;
-  flex-direction: column;
 }
 
 .uploader_div {
@@ -265,7 +271,7 @@ a {
 .lk-border {
   margin-top: -7%;
   height: 2px;
-  background-image: linear-gradient(to right, grey 10%, blue 90%);
+  background-image: linear-gradient(to right, grey 0%,rgb(22,122,198) 100%);
   margin-bottom: 2.5%;
 }
 
@@ -286,6 +292,29 @@ a {
 }
 
 /* CSS for contents of sidebar section */
+.toggle_button{
+display: flex;
+margin-left: 40px;
+padding: 10px;
+padding-left: 145px;
+
+
+}
+
+#toggle-id{
+margin: 5px;
+padding-left: 5px;
+margin-top: 2px;
+}
+
+.up-next-div{
+  display: flex;
+  font-size: small;
+  width: 990px;
+  
+}
+
+
 
 .feedcontainer {
   width: auto;
@@ -327,6 +356,7 @@ a {
   padding: 0% 5% 0% 5%;
   flex-direction: column;
   background-color: white;
+  
 }
 
 .ft-ytlink {
@@ -335,6 +365,7 @@ a {
 
 .dropbtn {
   margin-top: -2%;
+  padding: 15px;
   padding-top: 3px;
   padding-bottom: 3px;
   height: 100%;
