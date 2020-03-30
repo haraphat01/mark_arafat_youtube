@@ -1,39 +1,32 @@
 
 
-# Youtube Page Project
+# EMBEDDING IMAGES AND VIDEO
 
-> This is the youtube Page we are to build
+> This project consists of building an HTML document that matches the appearance of youtube video player page.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./youtube_screenshot.png)
 
 
 
 ## Built With
 
 - HTML,
-- Css
+- CSS
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To test the code please clone the repository [here](https://github.com/haraphat01/mark_arafat_youtube.git)
 
-
-To get a local copy up and running follow these simple example steps.
+Run the index file with Google Chrome Browser
 
 ### Prerequisites
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
+HTML5 and CSS3 compatible browser
 
 ### Deployment
 
+You can use [raw githack](https://raw.githack.com/) to view this page directly from github.
 
 
 ## Authors
@@ -59,9 +52,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse
+
 
 ## 📝 License
 
