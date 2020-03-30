@@ -16,6 +16,8 @@ a {
   border: 1px solid black;
 }
 
+
+
 /* <!-- Youtube search bar css  --> */
 .nav-div {
   background-color: white;
@@ -25,6 +27,30 @@ a {
   flex-direction: row;
 }
 
+.language-div{
+  height: 70px ;
+  background-color:white;
+  border: 2px solid blue;
+  }
+
+  .blue-language-div{
+    height: 50%;
+    background-color: blue;
+    color: white;
+    padding-left: 20px;
+    padding-top: 15px;
+    font-size: 0.9em;
+    display: flex;
+    text-align: right;
+  }
+  .blue-language-div p{
+    margin-left:  700px;
+    margin-top: -3px;
+  }
+  .white-language-div{
+    height: 50%;
+    color: blue;
+  }
 /* Div for youtube icon and menu */
 .menu-div {
   /* padding:20px; */
@@ -142,7 +168,8 @@ a {
 .sidebar_side {
   width: 40%;
   background-color: white;
-  margin-left: 5px;
+ margin-left: 25px;
+ margin-right: 25px;
 }
 
 .uploader_div {
