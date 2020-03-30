@@ -185,6 +185,8 @@ a {
   background-color: white;
   margin-left: 25px;
   margin-right: 25px;
+  display: flex;
+  flex-direction: column;
 }
 
 .uploader_div {
@@ -284,6 +286,27 @@ a {
 }
 
 /* CSS for contents of sidebar section */
+.sidebar-autoplay {
+  display: flex;
+  flex-direction: row;
+  background-color: pink;
+}
+
+.sdb-upnext {
+  width: 50%;
+  padding: 3px;
+}
+
+.sdb-autoplay {
+  width: 50%;
+  margin-top: -12px;
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+  text-align: center;
+  margin-left: 20px;
+}
+
 .feedcontainer {
   width: auto;
   height: 15%;
