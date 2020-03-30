@@ -286,24 +286,6 @@ a {
 }
 
 /* CSS for contents of sidebar section */
-.sidebar-autoplay {
-  display: flex;
-  flex-direction: row;
-  background-color: pink;
-}
-
-.sdb-upnext {
-  padding: 3px;
-}
-
-.sdb-autoplay {
-  width: 100%;
-  margin-top: -12px;
-  display: flex;
-  background-color: red;
-  text-align: right;
-  height: auto;
-}
 
 .feedcontainer {
   width: auto;
