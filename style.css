@@ -293,18 +293,16 @@ a {
 }
 
 .sdb-upnext {
-  width: 50%;
   padding: 3px;
 }
 
 .sdb-autoplay {
-  width: 50%;
+  width: 100%;
   margin-top: -12px;
   display: flex;
-  flex-direction: row;
   background-color: red;
-  text-align: center;
-  margin-left: 20px;
+  text-align: right;
+  height: auto;
 }
 
 .feedcontainer {
