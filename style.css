@@ -51,7 +51,7 @@ a:hover {
 }
 
 .blue-language-div p {
-  margin-left: 87%;
+  margin-left: 1250px;
   margin-top: -3px;
 }
 
@@ -283,7 +283,7 @@ a:hover {
 
 .toggle_button {
   display: flex;
-  margin-left: 20%;
+  margin-left: 170px;
   padding: 10px;
   padding-left: 145px;
 }
