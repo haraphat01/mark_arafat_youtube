@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <!-- metadata elements -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link
       rel="stylesheet"
@@ -21,13 +22,13 @@
         <nav class="nav-div">
           <!--Youtube and menu icon div-->
           <div class="menu-div">
-            <button type="button" name="menu" id="menu-id">
+            <button type="button" name="menu" class="menu-id">
               <i class="fa fa-bars"></i>
             </button>
-            <a href="#" id="youtubepic"
-              ><img class="yt-logo" src="icons/youtube.png"
+            <a href="#" class="youtubepic"
+              ><img class="yt-logo" src="icons/youtube.png" alt="YouTube logo"
             /></a>
-            <div class="yt-country" id="social_text">
+            <div class="yt-country social_text">
               NL
             </div>
           </div>
@@ -41,7 +42,7 @@
 
           <!--Upload video division-->
           <div class="upload-div">
-            <button type="button" name="upload" id="menu-id">
+            <button type="button" name="upload" class="menu-id">
               <i class="fa fa-upload"></i>
             </button>
             <button type="button" name="signin" class="signin-btn">
@@ -72,16 +73,16 @@
       <main>
         <div class="video_and_sidebar">
           <div class="video_side">
-            <!--iframe Division---------------------------------------------->
+            <!--iframe Division    -->
             <iframe
-              width="100%"
+              width="525"
               height="315"
               src="https://www.youtube.com/embed/tgbNymZ7vqY"
             >
             </iframe>
             <h3>Contributing to Open Source Part I: The Easy Way</h3>
 
-            <!--Division No. of subscribers -Yellow------------------>
+            <!-- Division No. of subscribers -Yellow    -->
             <div class="uploader_div">
               <div class="T-div">
                 <button type="button" name="signin" id="uploader_button">
@@ -98,7 +99,9 @@
                   >
                 </div>
                 <div>
-                  <a href="#"><img src="icons/subscribe.PNG"/></a>
+                  <a href="#"
+                    ><img src="icons/subscribe.PNG" alt="subscribe"
+                  /></a>
                 </div>
               </div>
               <div class="no_subscribers_div">
@@ -106,9 +109,9 @@
               </div>
             </div>
             <hr />
-            <!--Division for  Add Like Dislike ,Orange--------------->
+            <!--Division for  Add Like Dislike ,Orange   -->
             <div class="social_sites_div">
-              <div class="add_share_more" id="social_text">
+              <div class="add_share_more social_text">
                 <button type="button" name="add">
                   <i class="fa fa-plus"></i>
                 </button>
@@ -122,7 +125,7 @@
                 </button>
                 More
               </div>
-              <div class="like_dislike" id="social_text">
+              <div class="like_dislike social_text">
                 <div class="lk-border"></div>
                 <div class="lk-section">
                   <button type="button" name="like">
@@ -137,7 +140,7 @@
               </div>
             </div>
 
-            <!---Description division----------------------------------->
+            <!-- Description division    -->
             <div class="description-txt">
               <h2>Published on Feb 27, 2014</h2>
               <p>
@@ -157,24 +160,26 @@
               <button type="button" name="show" id="show">SHOW MORE</button>
             </div>
 
-            <!--Loading gif section --------------------------------------------->
+            <!--Loading gif section      -->
             <div class="loading" style="text-align: center;">
               <p>Loading</p>
             </div>
           </div>
 
           <div class="sidebar_side">
-            <!---First Field Container----------------------------------->
+            <!---First Field Container    -->
             <div class="up-next-div">
               <div><p>Up Next</p></div>
               <div class="toggle_button">
                 Auto Play
-                <i id="toggle-id" class="fa fa-exclamation-circle"></i>
-                <i id="toggle-id" class="fa fa-toggle-on"></i>
+                <i class="fa fa-exclamation-circle toggle-id"></i>
+                <i class="fa fa-toggle-on toggle-id"></i>
               </div>
             </div>
             <div class="feedcontainer">
-              <div id="feedimage"><img src="icons/picture1.jpg" /></div>
+              <div class="feedimage">
+                <img src="icons/picture1.jpg" alt="contributor icon" />
+              </div>
               <div>
                 <h5>Contributing to Open Source Part II: The Real Way</h5>
                 <p>The Ordin Project</p>
@@ -184,9 +189,11 @@
 
             <hr />
 
-            <!---second Field Conainer----------------------------------->
+            <!---second Field Conainer     -->
             <div class="feedcontainer">
-              <div id="feedimage"><img src="icons/picture1.jpg" /></div>
+              <div class="feedimage">
+                <img src="icons/picture1.jpg" alt="sample yt page" />
+              </div>
               <div>
                 <h5>Contributing to Open Source Part II: The Real Way</h5>
                 <p>The Ordin Project</p>
@@ -194,9 +201,11 @@
               </div>
             </div>
 
-            <!---Third Field Container----------------------------------->
+            <!---Third Field Container    -->
             <div class="feedcontainer">
-              <div id="feedimage"><img src="icons/picture1.jpg" /></div>
+              <div class="feedimage">
+                <img src="icons/picture1.jpg" alt="sample yt page" />
+              </div>
               <div>
                 <h5>Contributing to Open Source Part II: The Real Way</h5>
                 <p>The Ordin Project</p>
@@ -204,9 +213,11 @@
               </div>
             </div>
 
-            <!---Fourth Field Container----------------------------------->
+            <!---Fourth Field Container   -->
             <div class="feedcontainer">
-              <div id="feedimage"><img src="icons/picture1.jpg" /></div>
+              <div class="feedimage">
+                <img src="icons/picture1.jpg" alt="sample yt page" />
+              </div>
               <div>
                 <h5>Contributing to Open Source Part II: The Real Way</h5>
                 <p>The Ordin Project</p>
@@ -214,9 +225,11 @@
               </div>
             </div>
 
-            <!---Fifith Field Container----------------------------------->
+            <!---Fifith Field Container  -->
             <div class="feedcontainer">
-              <div id="feedimage"><img src="icons/picture1.jpg" /></div>
+              <div class="feedimage">
+                <img src="icons/picture1.jpg" alt="sample yt page" />
+              </div>
               <div>
                 <h5>Contributing to Open Source Part II: The Real Way</h5>
                 <p>The Ordin Project</p>
@@ -229,8 +242,8 @@
       <footer>
         <div class="ft-div">
           <div class="ft-ytlink">
-            <a href="#" id="youtubepic"
-              ><img class="yt-logo" src="icons/youtube.png"
+            <a href="#" class="youtubepic"
+              ><img class="yt-logo" src="icons/youtube.png" alt="YouTube logo"
             /></a>
             <button class="dropbtn">
               <i class="fa fa-comments"></i> Language :<b>English</b>
@@ -262,10 +275,10 @@
               <a href="#" class="ft-text">Developers</a>
             </div>
             <div>
-              <a href="#" id="social_text">Terms</a>
-              <a href="#" id="social_text">Privacy</a>
-              <a href="#" id="social_text">Policy & Safety </a>
-              <a href="#" id="social_text"> Test new features</a>
+              <a href="#" class="social_text">Terms</a>
+              <a href="#" class="social_text">Privacy</a>
+              <a href="#" class="social_text">Policy & Safety </a>
+              <a href="#" class="social_text"> Test new features</a>
             </div>
           </div>
         </div>

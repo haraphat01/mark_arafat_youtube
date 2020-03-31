@@ -112,12 +112,12 @@ a:hover {
 }
 
 /* Youtube pic  */
-#youtubepic {
+.youtubepic {
   position: relative;
 }
 
 /* menu bar id  */
-#menu-id {
+.menu-id {
   height: 100%;
   width: 25%;
   background-color: white;
@@ -194,9 +194,9 @@ a:hover {
 }
 
 .sidebar_side {
-  width: 40%;
+  width: 39.5%;
   background-color: white;
-  margin-left: 25px;
+  margin-left: 10px;
   margin-right: 25px;
 }
 
@@ -254,7 +254,7 @@ a:hover {
 }
 
 /* Formating text behind Add More Share Like and Dislike Buttons */
-#social_text {
+.social_text {
   font-size: 10px;
   font-style: Arial;
   border: none;
@@ -304,7 +304,7 @@ a:hover {
   padding-left: 145px;
 }
 
-#toggle-id {
+.toggle-id {
   margin: 5px;
   padding-left: 5px;
   margin-top: 2px;
@@ -339,12 +339,12 @@ a:hover {
   margin-left: 10px;
 }
 
-#feedimage {
+.feedimage {
   width: 80%;
   height: 80%;
 }
 
-#feedimage h5 {
+.feedimage h5 {
   padding-top: 1em;
   padding-bottom: 1em;
   color: red;
