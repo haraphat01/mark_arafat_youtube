@@ -3,6 +3,11 @@ body {
   font-family: sans-serif;
 }
 
+hr {
+  border: 0.5px solid rgb(220, 220, 220);
+  margin-top: 10px;
+}
+
 a {
   color: black;
   text-decoration: none;
@@ -20,7 +25,7 @@ a:hover {
   border: 1px solid black;
 }
 
-/* <!-- Youtube search bar css  --> */
+/*  Youtube search bar css  */
 .nav-div {
   font-size: 0.9em;
   background-color: white;
@@ -108,7 +113,6 @@ a:hover {
 
 /* Youtube pic  */
 #youtubepic {
-  /*  padding-top: 20px; */
   position: relative;
 }
 
@@ -381,9 +385,4 @@ a:hover {
   margin-right: 1%;
   font-family: sans-serif;
   color: rgb(47, 79, 79);
-}
-
-hr {
-  border: 0.5px solid rgb(220, 220, 220);
-  margin-top: 10px;
 }
