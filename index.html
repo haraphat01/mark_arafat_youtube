@@ -2,7 +2,6 @@
 
 <html lang="en">
   <head>
-    <!-- metadata elements -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link
@@ -12,15 +11,9 @@
     <title>Youtube's Page</title>
   </head>
   <body>
-    <!-- page contents -->
-
-    <!-- outer division with black border
-- All other sections will be encapsulated here-->
     <div class="outer-div">
-      <!--Youtube search bar section-->
       <header>
         <nav class="nav-div">
-          <!--Youtube and menu icon div-->
           <div class="menu-div">
             <button type="button" name="menu" class="menu-id">
               <i class="fa fa-bars"></i>
@@ -32,7 +25,6 @@
               NL
             </div>
           </div>
-          <!--Search text division -->
           <div class="search-div">
             <input id="textspace" type="text" placeholder="Search" />
             <button type="button" name="search" id="search-button">
@@ -40,7 +32,6 @@
             </button>
           </div>
 
-          <!--Upload video division-->
           <div class="upload-div">
             <button type="button" name="upload" class="menu-id">
               <i class="fa fa-upload"></i>
@@ -69,20 +60,17 @@
         </div>
       </header>
 
-      <!--Encapsulating Division for the Video and Sidebar content columns ,Blue-->
       <main>
         <div class="video_and_sidebar">
           <div class="video_side">
-            <!--iframe Division    -->
             <iframe
-              width="525"
-              height="315"
+              width="920"
+              height="690"
               src="https://www.youtube.com/embed/tgbNymZ7vqY"
             >
             </iframe>
-            <h3>Contributing to Open Source Part I: The Easy Way</h3>
+            <h2>Contributing to Open Source Part I: The Easy Way</h2>
 
-            <!-- Division No. of subscribers -Yellow    -->
             <div class="uploader_div">
               <div class="T-div">
                 <button type="button" name="signin" id="uploader_button">
@@ -109,7 +97,6 @@
               </div>
             </div>
             <hr />
-            <!--Division for  Add Like Dislike ,Orange   -->
             <div class="social_sites_div">
               <div class="add_share_more social_text">
                 <button type="button" name="add">
@@ -140,7 +127,6 @@
               </div>
             </div>
 
-            <!-- Description division    -->
             <div class="description-txt">
               <h2>Published on Feb 27, 2014</h2>
               <p>
@@ -160,14 +146,12 @@
               <button type="button" name="show" id="show">SHOW MORE</button>
             </div>
 
-            <!--Loading gif section      -->
             <div class="loading" style="text-align: center;">
               <p>Loading</p>
             </div>
           </div>
 
           <div class="sidebar_side">
-            <!---First Field Container    -->
             <div class="up-next-div">
               <div><p>Up Next</p></div>
               <div class="toggle_button">
@@ -181,59 +165,55 @@
                 <img src="icons/picture1.jpg" alt="contributor icon" />
               </div>
               <div>
-                <h5>Contributing to Open Source Part II: The Real Way</h5>
-                <p>The Ordin Project</p>
-                <p>29,981 views</p>
+                <h3>Contributing to Open Source Part II: The Real Way</h3>
+                <span>The Ordin Project</span><br />
+                <span>29,981 views</span>
               </div>
             </div>
 
             <hr />
 
-            <!---second Field Conainer     -->
             <div class="feedcontainer">
               <div class="feedimage">
                 <img src="icons/picture1.jpg" alt="sample yt page" />
               </div>
-              <div>
-                <h5>Contributing to Open Source Part II: The Real Way</h5>
-                <p>The Ordin Project</p>
-                <p>29,981 views</p>
+              <div class="sidebar-text">
+                <h3>Contributing to Open Source Part II: The Real Way</h3>
+                <span>The Ordin Project</span><br />
+                <span>29,981 views</span>
               </div>
             </div>
 
-            <!---Third Field Container    -->
             <div class="feedcontainer">
               <div class="feedimage">
                 <img src="icons/picture1.jpg" alt="sample yt page" />
               </div>
               <div>
-                <h5>Contributing to Open Source Part II: The Real Way</h5>
-                <p>The Ordin Project</p>
-                <p>29,981 views</p>
+                <h3>Contributing to Open Source Part II: The Real Way</h3>
+                <span>The Ordin Project</span><br />
+                <span>29,981 views</span>
               </div>
             </div>
 
-            <!---Fourth Field Container   -->
             <div class="feedcontainer">
               <div class="feedimage">
                 <img src="icons/picture1.jpg" alt="sample yt page" />
               </div>
               <div>
-                <h5>Contributing to Open Source Part II: The Real Way</h5>
-                <p>The Ordin Project</p>
-                <p>29,981 views</p>
+                <h3>Contributing to Open Source Part II: The Real Way</h3>
+                <span>The Ordin Project</span><br />
+                <span>29,981 views</span>
               </div>
             </div>
 
-            <!---Fifith Field Container  -->
             <div class="feedcontainer">
               <div class="feedimage">
                 <img src="icons/picture1.jpg" alt="sample yt page" />
               </div>
               <div>
-                <h5>Contributing to Open Source Part II: The Real Way</h5>
-                <p>The Ordin Project</p>
-                <p>29,981 views</p>
+                <h3>Contributing to Open Source Part II: The Real Way</h3>
+                <span>The Ordin Project</span><br />
+                <span>29,981 views</span>
               </div>
             </div>
           </div>
@@ -275,10 +255,10 @@
               <a href="#" class="ft-text">Developers</a>
             </div>
             <div>
-              <a href="#" class="social_text">Terms</a>
-              <a href="#" class="social_text">Privacy</a>
-              <a href="#" class="social_text">Policy & Safety </a>
-              <a href="#" class="social_text"> Test new features</a>
+              <a href="#" class="ft-social-text">Terms</a>
+              <a href="#" class="ft-social-text">Privacy</a>
+              <a href="#" class="ft-social-text">Policy & Safety </a>
+              <a href="#" class="ft-social-text"> Test new features</a>
             </div>
           </div>
         </div>
