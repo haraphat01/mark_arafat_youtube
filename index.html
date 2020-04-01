@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Youtube's Page</title>
+  </head>
+  <body>
+    <div class="outer-div">
+      <header>
+        <nav class="nav-div">
+          <div class="menu-div">
+            <button type="button" name="menu" class="menu-id">
+              <i class="fa fa-bars"></i>
+            </button>
+            <a href="#" class="youtubepic"
+              ><img class="yt-logo" src="icons/youtube.png" alt="YouTube logo"
+            /></a>
+            <div class="yt-country social_text">
+              NL
+            </div>
+          </div>
+          <div class="search-div">
+            <input id="textspace" type="text" placeholder="Search" />
+            <button type="button" name="search" id="search-button">
+              <i class="fa fa-search"></i>
+            </button>
+          </div>
+
+          <div class="upload-div">
+            <button type="button" name="upload" class="menu-id">
+              <i class="fa fa-upload"></i>
+            </button>
+            <button type="button" name="signin" class="signin-btn">
+              Sign in
+            </button>
+          </div>
+        </nav>
+
+        <div class="language-div">
+          <div class="blue-language-div">
+            <i class="fa fa-comments"></i>. Choose your language
+            <p>x</p>
+          </div>
+
+          <div class="white-language-div">
+            <div class="white-lang-English">
+              You are viewing YouTube <b>English(U.S)</b>. You can
+              <span class="white-lang-span">change this preference below.</span>
+            </div>
+            <div class="white-lang-learn">
+              Learn more.
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <div class="video_and_sidebar">
+          <div class="video_side">
+            <div class="video_holder">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/tgbNymZ7vqY"
+              >
+              </iframe>
+            </div>
+            <h3>Contributing to Open Source Part I: The Easy Way</h3>
+            <div class="uploader_div">
+              <div class="T-div">
+                <button type="button" name="signin" id="uploader_button">
+                  T
+                </button>
+              </div>
+              <div class="Odin-div">
+                <div>
+                  <a
+                    href="https://www.youtube.com/channel/UCk0b0VTnJxXbxupXJ4D2yjQ"
+                    target="_blank"
+                    rel="noreferrer"
+                    >The Odin Project</a
+                  >
+                </div>
+                <div>
+                  <a href="#"
+                    ><img src="icons/subscribe.PNG" alt="subscribe"
+                  /></a>
+                </div>
+              </div>
+              <div class="no_subscribers_div">
+                <p id="subscribers">50,000 views</p>
+              </div>
+            </div>
+            <hr />
+            <div class="social_sites_div">
+              <div class="add_share_more social_text">
+                <button type="button" name="add">
+                  <i class="fa fa-plus"></i>
+                </button>
+                Add to
+                <button type="button" name="share">
+                  <i class="fa fa-share"></i>
+                </button>
+                Share
+                <button type="button" name="more">
+                  <i class="fa fa-ellipsis-h"></i>
+                </button>
+                More
+              </div>
+              <div class="like_dislike social_text">
+                <div class="lk-border"></div>
+                <div class="lk-section">
+                  <button type="button" name="like">
+                    <i class="fa fa-thumbs-up"></i>
+                  </button>
+                  400
+                  <button type="button" name="dislike">
+                    <i class="fa fa-thumbs-down"></i>
+                  </button>
+                  67,899
+                </div>
+              </div>
+            </div>
+
+            <div class="description-txt">
+              <h4>Published on Feb 27, 2014</h4>
+              <p>
+                How do you contribute to open source? In this video, I'll
+                describe the easiest way to make a simple contribution to an
+                open source project -- without using the command line, a text
+                editor, "forking a repo", or even touching Git outside of
+                Github. I'll also describe what kinds of contributions open
+                source software projects are typically looking for. As an
+                example, I use submitting a student solution to a web
+                development exercise from The Odin Project, a free online
+                curriculum for learning web development with Ruby on Rails. You
+                can find more information about that project at
+                http://theodinproject.com.
+              </p>
+              <hr />
+              <button type="button" name="show" id="show">SHOW MORE</button>
+            </div>
+
+            <div class="loading" style="text-align: center;">
+              <p>Loading</p>
+            </div>
+          </div>
+
+          <div class="sidebar_side">
+            <div class="up-next-div">
+              <div><p>Up Next</p></div>
+              <div class="toggle_button">
+                Auto Play
+                <i class="fa fa-exclamation-circle toggle-id"></i>
+                <i class="fa fa-toggle-on toggle-id"></i>
+              </div>
+            </div>
+            <div class="feedcontainer">
+              <div class="feedimage">
+                <img src="icons/picture1.jpg" alt="contributor icon" />
+              </div>
+              <div class="feed-desc">
+                <b>Contributing to Open Source Part II: The Real Way</b><br />
+                <span>The Ordin Project</span><br />
+                <span>29,981 views</span>
+              </div>
+            </div>
+
+            <hr />
+
+            <div class="feedcontainer">
+              <div class="feedimage">
+                <img src="icons/picture1.jpg" alt="sample yt page" />
+              </div>
+              <div class="sidebar-text">
+                <b>Contributing to Open Source Part II: The Real Way</b><br />
+                <span>The Ordin Project</span><br />
+                <span>29,981 views</span>
+              </div>
+            </div>
+
+            <div class="feedcontainer">
+              <div class="feedimage">
+                <img src="icons/picture1.jpg" alt="sample yt page" />
+              </div>
+              <div>
+                <b>Contributing to Open Source Part II: The Real Way</b><br />
+                <span>The Ordin Project</span><br />
+                <span>29,981 views</span>
+              </div>
+            </div>
+
+            <div class="feedcontainer">
+              <div class="feedimage">
+                <img src="icons/picture1.jpg" alt="sample yt page" />
+              </div>
+              <div>
+                <b>Contributing to Open Source Part II: The Real Way</b><br />
+                <span>The Ordin Project</span><br />
+                <span>29,981 views</span>
+              </div>
+            </div>
+
+            <div class="feedcontainer">
+              <div class="feedimage">
+                <img src="icons/picture1.jpg" alt="sample yt page" />
+              </div>
+              <div>
+                <b>Contributing to Open Source Part II: The Real Way</b><br />
+                <span>The Ordin Project</span><br />
+                <span>29,981 views</span>
+              </div>
+            </div>
+
+            <div class="feedcontainer">
+              <div class="feedimage">
+                <img src="icons/picture1.jpg" alt="sample yt page" />
+              </div>
+              <div>
+                <b>Contributing to Open Source Part II: The Real Way</b><br />
+                <span>The Ordin Project</span><br />
+                <span>29,981 views</span>
+              </div>
+            </div>
+
+            <div class="feedcontainer">
+              <div class="feedimage">
+                <img src="icons/picture1.jpg" alt="sample yt page" />
+              </div>
+              <div>
+                <b>Contributing to Open Source Part II: The Real Way</b><br />
+                <span>The Ordin Project</span><br />
+                <span>29,981 views</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="ft-div">
+          <div class="ft-ytlink">
+            <a href="#" class="youtubepic"
+              ><img class="yt-logo" src="icons/youtube.png" alt="YouTube logo"
+            /></a>
+            <button class="dropbtn">
+              <i class="fa fa-comments"></i> Language :<b>English</b>
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <button class="dropbtn">
+              Location : <b>Netherlands</b> <i class="fa fa-caret-down"></i>
+            </button>
+            <button class="dropbtn">
+              Restricted mode : Off <i class="fa fa-caret-down"></i>
+            </button>
+            <button class="dropbtn">
+              <i class="fa fa-hourglass"></i> History
+            </button>
+            <button class="dropbtn">
+              <i class="fa fa-question-circle"></i> Help
+            </button>
+          </div>
+          <div>
+            <hr />
+          </div>
+          <div class="ft-About">
+            <div>
+              <a href="#" class="ft-text">About</a>
+              <a href="#" class="ft-text">Press</a>
+              <a href="#" class="ft-text">Copyright</a>
+              <a href="#" class="ft-text">Creators</a>
+              <a href="#" class="ft-text">Advertise</a>
+              <a href="#" class="ft-text">Developers</a>
+            </div>
+            <div>
+              <a href="#" class="ft-social-text">Terms</a>
+              <a href="#" class="ft-social-text">Privacy</a>
+              <a href="#" class="ft-social-text">Policy & Safety </a>
+              <a href="#" class="ft-social-text"> Test new features</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
