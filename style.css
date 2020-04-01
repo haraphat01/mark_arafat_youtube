@@ -18,7 +18,7 @@ a:hover {
 }
 
 .outer-div {
-  margin-left: 20%;
+  /*  margin-left: 10%; */
   background-color: white;
   border: 1px solid black;
 }
@@ -63,7 +63,7 @@ a:hover {
 }
 
 .white-lang-learn {
-  padding-left: 30%;
+  padding-left: 45%;
   color: rgb(22, 122, 198);
 }
 
@@ -173,7 +173,12 @@ a:hover {
   height: 100%;
   flex-direction: row;
   margin: 4px;
-  background-color: rgbtoggle_but(241, 241, 241);
+  background-color: rgb(241, 241, 241);
+}
+
+.video_holder {
+  height: 50%;
+  width: 100%;
 }
 
 .video_side {
@@ -285,7 +290,7 @@ a:hover {
 
 .toggle_button {
   display: flex;
-  margin-left: 5%;
+  margin-left: 12%;
   padding: 10px;
   padding-left: 145px;
 }
@@ -309,6 +314,7 @@ a:hover {
   background-color: white;
   display: flex;
   margin-top: 20px;
+  font-size: 0.9rem;
 }
 
 .feedcontainer span {
