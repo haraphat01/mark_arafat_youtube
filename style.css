@@ -16,6 +16,10 @@ a:hover {
   color: rgb(22, 122, 198);
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .outer-div {
   margin-left: 20%;
   background-color: white;
