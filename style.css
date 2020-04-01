@@ -1,6 +1,7 @@
 body {
   background-color: rgb(241, 241, 241);
   font-family: sans-serif;
+  overflow-x: hidden;
 }
 
 hr {
@@ -14,10 +15,6 @@ a {
 
 a:hover {
   color: rgb(22, 122, 198);
-}
-
-body {
-  overflow-x: hidden;
 }
 
 .outer-div {
