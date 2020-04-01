@@ -1,18 +1,13 @@
-
-
 # EMBEDDING IMAGES AND VIDEO
 
 > This project consists of building an HTML document that matches the appearance of youtube video player page.
 
 ![screenshot](./youtube_screenshot.png)
 
-
-
 ## Built With
 
 - HTML,
 - CSS
-
 
 ## Getting Started
 
@@ -28,13 +23,13 @@ HTML5 and CSS3 compatible browser
 
 You can use [raw githack](https://raw.githack.com/) to view this page directly from github.
 
+You can view the site itself [here](https://rawcdn.githack.com/haraphat01/mark_arafat_youtube/787ea2f50029a25949c8a29e3aff15060a5be2d9/index.html) .Have fun!
 
 ## Authors
 
 👤 **Mark James Kiptubei**
 
 - Github: [@kiptubei](https://github.com/kiptubei)
-
 
 👤 **Arafat Akata**
 
@@ -53,7 +48,6 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse
-
 
 ## 📝 License
 
